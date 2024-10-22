@@ -125,6 +125,7 @@ buildPythonPackage rec {
     ];
     chalice = [ chalice ];
     cli = [
+      typer
       click
       pygments
       rich
