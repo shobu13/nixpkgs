@@ -54,7 +54,7 @@ let
       description = "A Simple Jellyfin frontend built on top of Flutter";
       homepage = "https://github.com/DonutWare/Fladder";
       license = lib.licenses.gpl3;
-      maintainers = with lib.maintainers; [ ];
+      maintainers = with lib.maintainers; [ serhao ];
       mainProgram = "fladder";
       platforms = lib.platforms.linux;
     };
